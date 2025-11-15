@@ -10,3 +10,10 @@ Each project has its own folder with HTML, CSS, and JavaScript files.
 - Small utilities and mini apps
 
 More projects will be added soon as I continue learning and practicing JavaScript.
+
+---
+
+## 👤 About the Developer
+**Name:** Georgekutty Jose  
+**Email:** georgekuttyjose84@gmail.com  
+**GitHub:** https://github.com/georgekuttyjose84
