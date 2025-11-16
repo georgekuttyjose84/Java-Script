@@ -1,8 +1,17 @@
-# JavaScript Projects
+# 🌟 About This Repository
 
-This repository contains simple JavaScript projects that I am building to improve my skills and understand core JavaScript concepts.
+This repository is a personal collection of **simple and beginner-friendly JavaScript projects** that I am building to improve my understanding of JavaScript and strengthen my programming foundation.
 
-Each project has its own folder with `index.html`, `styles.css`, or `style.css`, and `script.js`.
+My goal with this repo is to **learn by building**, explore core JavaScript concepts, and slowly grow a clean portfolio of practical mini-projects.  
+Each project focuses on one main idea such as DOM manipulation, event handling, basic logic building, or UI interactions.
+
+Every project is placed inside its own folder and contains:
+
+- `index.html` — the main webpage
+- `styles.css` / `style.css` — the visual design
+- `script.js` — the JavaScript functionality
+
+I started this repository to keep my learning organized, track my progress, and continue improving step-by-step as I build more projects.
 
 ## 🚀 Projects Included
 
@@ -17,12 +26,6 @@ A simple Fixed Deposit calculator built using JavaScript. It computes maturity v
 
 👉 **View the Project:**  
 [Open FD Calculator](./03-fd-calculator/index.html)
-
-### 3. Password Generator
-A JavaScript-based password generator that creates random secure passwords based on selected criteria.
-
-👉 **View the Project:**  
-[Open Password Generator](./04-password-generator/index.html)
 
 More projects will be added soon.
 
