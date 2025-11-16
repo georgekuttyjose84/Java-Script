@@ -2,7 +2,7 @@
 
 This repository contains simple JavaScript projects that I am building to improve my skills and understand core JavaScript concepts.
 
-Each project has its own folder with `index.html`, `styles.css`, and `script.js`.
+Each project has its own folder with `index.html`, `styles.css`, or `style.css`, and `script.js`.
 
 ## 🚀 Projects Included
 
@@ -18,6 +18,12 @@ A simple Fixed Deposit calculator built using JavaScript. It computes maturity v
 👉 **View the Project:**  
 [Open FD Calculator](./03-fd-calculator/index.html)
 
+### 3. Password Generator
+A JavaScript-based password generator that creates random secure passwords based on selected criteria.
+
+👉 **View the Project:**  
+[Open Password Generator](./04-password-generator/index.html)
+
 More projects will be added soon.
 
 ## 📂 Project Structure
@@ -31,6 +37,11 @@ More projects will be added soon.
 03-fd-calculator/
     ├── index.html
     ├── styles.css
+    └── script.js
+
+04-password-generator/
+    ├── index.html
+    ├── style.css
     └── script.js
 ```
 
