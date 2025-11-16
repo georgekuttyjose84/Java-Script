@@ -27,6 +27,24 @@ A simple Fixed Deposit calculator built using JavaScript. It computes maturity v
 👉 **View the Project:**  
 [Open FD Calculator](./03-fd-calculator/index.html)
 
+### 2. FD Calculator
+A simple Fixed Deposit calculator built using JavaScript. It computes maturity value based on principal, rate, and duration.
+
+👉 **View the Project:**  
+[Open FD Calculator](./03-fd-calculator/index.html)
+
+### 2. FD Calculator
+A simple Fixed Deposit calculator built using JavaScript. It computes maturity value based on principal, rate, and duration.
+
+👉 **View the Project:**  
+[Open FD Calculator](./03-fd-calculator/index.html)
+
+### 2. FD Calculator
+A simple Fixed Deposit calculator built using JavaScript. It computes maturity value based on principal, rate, and duration.
+
+👉 **View the Project:**  
+[Open FD Calculator](./03-fd-calculator/index.html)
+
 More projects will be added soon.
 
 ## 📂 Project Structure
