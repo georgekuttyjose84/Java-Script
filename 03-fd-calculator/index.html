@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Calculator App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>FD Calculator</h1>
+
+        <h4>Principal Amount:</h4>
+        <input type="number" id="principal" placeholder="Enter principal amount">
+
+        <label for="interest"><h4>Interest Rate (%):</h4></label>
+        <input type="number" id="interest" placeholder="Enter interest rate">
+
+        <label for="tenure"><h4>Tenure Period (in years):</h4></label>
+        <input type="number" id="tenure" placeholder="Enter number of years">
+
+        <div class="button">
+            <button id="calculate">Calculate</button>
+            <button id="reset">Reset</button>
+        </div>
+
+
+        <p id="result">Maturity Amount will be displayed here.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
