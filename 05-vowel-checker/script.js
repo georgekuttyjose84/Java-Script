@@ -3,28 +3,52 @@ const content = document.querySelector('#vowel');
 const vowelList = ['a','e','i','o','u'];
 const result = document.querySelector('#result');
 
+const checker = document.querySelector('#checker');
 
-content.addEventListener('input', (e) => {
+// Track whether input listener is active
+let isLiveCheckOn = false;
 
-    const contentValue = content.value
+checker.addEventListener('click', () => {
+    checker.classList.toggle('btn-class');
 
-    const totalLetters = contentValue.length;
-
-    if(totalLetters === null || totalLetters === 0){
-        alert('Please enter the content');
-    }
-
-    let count = 0;
-
-
-    for (let i = 0; i < totalLetters; i++) {
-        let letter = contentValue.charAt(i);
-        letter = letter.toLowerCase()
-        if(vowelList.includes(letter)) {
-            count = count + 1;
+    // If turned ON → add input listener
+    if (checker.classList.contains('btn-class')) {
+        if (!isLiveCheckOn) {
+            content.addEventListener('input', updateCount);
+            isLiveCheckOn = true;
         }
     }
 
-    result.innerText = 'Total Number of Vowels is ' + count;
+    // If turned OFF → remove input listener
+    else {
+        content.removeEventListener('input', updateCount);
+        isLiveCheckOn = false;
+    }
+});
 
-})
+// Manual button click
+submitBtn.addEventListener('click', () => {
+    result.innerText = 'Total Number of Vowels is ' + count();
+});
+
+function updateCount() {
+    result.innerText = 'Total Number of Vowels is ' + count();
+}
+
+function count() {
+    const contentValue = content.value;
+
+    if (!contentValue) {
+        return 0;
+    }
+
+    let total = 0;
+
+    for (let i = 0; i < contentValue.length; i++) {
+        let letter = contentValue[i].toLowerCase();
+        if (vowelList.includes(letter)) {
+            total++;
+        }
+    }
+    return total;
+}

@@ -53,11 +53,26 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-bottom: 10px;
 }
 
 button:hover {
     background-color: #45a049;
 }
+
+.btn {
+    background-color: #af4c54;
+    color: #ffffff;
+}
+
+.btn:hover {
+    /* nothing */
+}
+.btn-class {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
 
 #result {
     font-size: 20px;
