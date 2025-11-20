@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border: #0d6efd 1px solid;
+    box-shadow: 0px 0px 5px rgba(198, 198, 198, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > div {
+    width: 100%;
+}
+
+.container > div:last-child {
+    display: flex;
+    color: red;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.container:hover {
+    box-shadow: 10px 10px 15px rgba(198, 198, 198, 0.3);
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: anchor-center;
+
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: #f8f9fa;
+    width: 50%;
+}
+
+
+
+
+input:focus{
+    outline: none;
+}
+
+
+button {
+    background-color: rgba(2, 1, 1, 0.44);
+    padding: 5px;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.list > p {
+    flex:0.6;
+}
+.list > button {
+    border-radius: 50% ;
+}
