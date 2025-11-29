@@ -1,0 +1,65 @@
+:root {
+    /* Colors */
+    --bg-color: #333333;
+    --text-color: #ffffff;
+    --btn-bg: #333333;
+    --btn-text: #ffffff;
+    --btn-hover-bg: #ffffff;
+    --btn-hover-text: #333333;
+
+    /* Font */
+    --font-main: sans-serif;
+
+    /* Layout sizes */
+    --btn-padding: 10px;
+    --btn-width: 40%;
+    --btn-height: 10%;
+    --btn-font-size: 15px;
+}
+
+body {
+    font-family: var(--font-main), serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+button {
+    padding: var(--btn-padding);
+    border: double var(--text-color);
+    width: var(--btn-width);
+    height: var(--btn-height);
+
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+
+    font-size: var(--btn-font-size);
+}
+
+button:hover {
+    background-color: var(--btn-hover-bg);
+    color: var(--btn-hover-text);
+    cursor: pointer;
+}
+
+p {
+   text-align: center;
+
+}
