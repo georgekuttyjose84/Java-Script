@@ -1,0 +1,91 @@
+:root {
+    /* Colors */
+    --bg-color: #333333;
+    --text-color: #ffffff;
+    --btn-bg: #333333;
+    --btn-text: #ffffff;
+    --btn-hover-bg: #ffffff;
+    --btn-hover-text: #333333;
+
+    /* Fonts & Sizes */
+    --font-main: sans-serif;
+    --btn-padding: 10px;
+    --btn-width: 40%;
+    --btn-height: 10%;
+    --btn-font-size: 15px;
+}
+
+/* PAGE CENTER */
+body {
+    font-family: var(--font-main), serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+/* Only apply display when NOT hidden */
+.container:not([hidden]) {
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+/* BUTTON STYLE */
+button {
+    padding: var(--btn-padding);
+    border: double var(--text-color);
+    width: var(--btn-width);
+    height: var(--btn-height);
+
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    font-size: var(--btn-font-size);
+}
+
+button:hover {
+    background-color: var(--btn-hover-bg);
+    color: var(--btn-hover-text);
+    cursor: pointer;
+}
+
+/* PARAGRAPH */
+p {
+    text-align: center;
+}
+
+/* LOADER SPINNER */
+.loader:not([hidden]) {
+    display: block;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;  /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+
+    /* Center loader */
+    margin: auto;
+}
+
+/* SPIN ANIMATION */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
