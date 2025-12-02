@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- REQUIRED for icons to work -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="player-container">
+
+    <div class="img-container">
+        <img id="audio-image" src="img/jacinto-1.jpg" alt="Album Art">
+    </div>
+
+    <h2 id="title">Electric Chill Machine</h2>
+    <p id="artist">Jacinto</p>
+
+    <div class="time">
+        <span  class="start-time">0:00</span>
+        <span  class="end-time">5:00</span>
+    </div>
+
+    <div class="progression-bar">
+        <div class="progression-fill"></div>
+    </div>
+
+    <div class="controls">
+        <button class="forward-backward backward">
+            <i class="fa fa-backward" aria-hidden="true"></i>
+        </button>
+        <button class="play-pause">
+            <i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+        <button class="forward-backward forward">
+            <i class="fa fa-forward" aria-hidden="true"></i>
+        </button>
+    </div>
+    <audio class="audio" src="music/jacinto-1.mp3"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
