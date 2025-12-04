@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #c1c1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 60px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap:10px
+}
+.container h1 {
+    padding-left: 10px;
+}
+
+input {
+    border-color: gray;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+label {
+    padding-left: 10px;
+    font-weight: bold;
+}
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    background: #45a049;
+    color: white;
+}
+
+.time-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 19px;
+}
+
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 60px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap:30px
+}
+
+.container-1 > h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.time-section > span {
+    display: block;
+    font-size: 35px;
+}
