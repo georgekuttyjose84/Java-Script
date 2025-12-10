@@ -7,8 +7,6 @@ const minutesElement = document.getElementById("minute");
 const hourElement = document.getElementById("hour");
 const dayElement = document.getElementById("day");
 
-
-
 let timer;
 
 const res = document.getElementById("container-1");
@@ -19,13 +17,20 @@ const reset = document.querySelector(".reset");
 
 const heading = document.getElementById('container-1').firstChild
 
+if( localStorage.getItem("last-entry")){
+    dateTimeValue = localStorage.getItem("last-entry");
+    let obj =  JSON.parse(dateTimeValue);
+    const heading = document.getElementById('container-1').firstElementChild;
+    heading.innerHTML = obj.title;
+    generate(obj.dates)
+}
+
 reset.addEventListener("click", function () {
     form.hidden = false;
     form.classList.toggle( 'container');
     res.classList.toggle("container-1");
+    localStorage.clear();
 })
-
-
 
 
 submitBtn.addEventListener("click", function () {
@@ -35,8 +40,20 @@ submitBtn.addEventListener("click", function () {
         alert("Please select a date and time");
         return;
     }
+    let dataLocal = {
+        title: title.value,
+        dates: dateTimeValue,
+    }
+    localStorage.setItem("last-entry", JSON.stringify(dataLocal));
     const heading = document.getElementById('container-1').firstElementChild;
     heading.innerHTML = title.value;
+
+    generate(dateTimeValue)
+});
+
+
+function generate(dateTimeValue) {
+
     form.hidden = true;
     form.classList.toggle( 'container');
     res.classList.toggle("container-1");
@@ -47,7 +64,6 @@ submitBtn.addEventListener("click", function () {
 
     // Start new countdown
     timer = setInterval(() => {
-
         const now = new Date().getTime();
         const diff = targetDate - now;
 
@@ -75,6 +91,8 @@ submitBtn.addEventListener("click", function () {
 
     }, 1000);
 
-    window.alert("Completed")
 
-});
+    if(timer) {
+        console.log('test')
+    }
+}
