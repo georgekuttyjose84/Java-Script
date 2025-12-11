@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarks — Improved</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="brand">
+            <h1><i class="fas fa-bookmark"></i> My Bookmarks</h1>
+        </div>
+        <div class="actions">
+            <button id="show-model" class="btn">Add Bookmark</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="bookmark" aria-label="Bookmarks list">
+
+            <div class="bookmark-box">
+                <div class="icon"><i class="fab fa-google"></i></div>
+                <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer"><h3>W3Schools</h3></a>
+                <div class="icon closing-button"><i class="fas fa-times"></i></div>
+            </div>
+
+
+
+            <div class="bookmark-box">
+                <div class="icon"><i class="fab fa-twitter"></i></div>
+                <h3>Twitter</h3>
+                <div class="icon closing-button"><i class="fas fa-times"></i></div>
+            </div>
+
+            <div class="bookmark-box">
+                <div class="icon"><i class="fab fa-youtube"></i></div>
+                <h3>Youtube</h3>
+                <div class="icon closing-button"><i class="fas fa-times"></i></div>
+            </div>
+
+        </section>
+    </main>
+</div>
+
+<!-- Modal -->
+<div class="modal-dialog " id="bookmarkModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content" role="document">
+        <div class="modal-header">
+            <h2>Enter the details</h2>
+            <button class="icon-close" id="closeModal" aria-label="Close modal"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+            <form method="POST" action="" id="bookmarkForm">
+                <div class="form-group">
+                    <label for="title">Name</label>
+                    <input type="text" id="title" name="title" placeholder="e.g. MDN Web Docs" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="url">URL</label>
+                    <input type="text" id="url" name="url" placeholder="https://example.com" required>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn secondary" id="cancel">Cancel</button>
+                    <button type="submit" class="btn">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
