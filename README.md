@@ -24,6 +24,13 @@ This repository contains a set of small JavaScript projects I built to practice 
 08-to-do-list/
 09-digital-clock/
 10-expense-tracker/
+11-poper-application/
+12-ascii-unicode-detector/
+13-music-player/
+14-count-down-maker/
+15-book-marker/
+16-video-player/
+api/
 ```
 
 Each project folder typically contains:
@@ -110,6 +117,108 @@ Basic expense tracker that allows adding expenses and viewing totals; a foundati
 
 ---
 
+### 11 - Popover Application
+
+A small UI utility demonstrating popover behavior using JavaScript event handling and DOM manipulation.
+
+👉 [Open Popover Application](./11-poper-application/index.html)
+
+---
+
+### 12 - ASCII / Unicode Detector
+
+Tool to detect and display ASCII or Unicode values for user-entered characters.
+
+👉 [Open ASCII / Unicode Detector](./12-ascii-unicode-detector/index.html)
+
+---
+
+### 13 - Music Player
+
+A browser-based music player featuring playlist control, play/pause functionality, and audio handling using the HTML5 Audio API.
+
+👉 [Open Music Player](./13-music-player/index.html)
+
+---
+
+### 14 - Countdown Maker
+
+A countdown timer that calculates remaining time until a selected future date.
+
+👉 [Open Countdown Maker](./14-count-down-maker/index.html)
+
+---
+
+### 15 - Bookmark Manager
+
+A simple bookmark manager that allows saving, listing, and persisting website links using localStorage.
+
+👉 [Open Bookmark Manager](./15-book-marker/index.html)
+
+---
+
+### 16 - Video Player
+
+A custom video player with JavaScript-based controls demonstrating media event handling.
+
+👉 [Open Video Player](./16-video-player/index.html)
+
+---
+
+## 🌐 API-Based Projects
+
+Projects that demonstrate working with external APIs using Fetch API and async JavaScript.
+
+---
+
+### API 01 - Dictionary App
+
+A dictionary application that fetches word meanings from an external API and displays definitions dynamically.
+
+👉 [Open Dictionary App](./api/01-dictonary-app/index.html)
+
+---
+
+### API 02 - Quote Generator
+
+Generates and displays random quotes fetched from a public API.
+
+👉 [Open Quote Generator](./api/02-quote-generator/index.html)
+
+---
+
+### API 03 - Joke Teller
+
+Fetches jokes from an external API and displays them dynamically.
+
+👉 [Open Joke Teller](./api/03-joke-teller/index.html)
+
+---
+
+### API 04 - Image Search
+
+Search for images using an external image API and display results dynamically.
+
+👉 [Open Image Search](./api/04-image-search/index.html)
+
+---
+
+### API 05 - Infinity Scroll
+
+Implements infinite scrolling by loading new content dynamically as the user scrolls.
+
+👉 [Open Infinity Scroll](./api/05-infinity-scroll/index.html)
+
+---
+
+### API 06 - Picture in Picture
+
+Demonstrates the Picture-in-Picture Web API using video elements.
+
+👉 [Open Picture in Picture](./api/06-picture-in-picture/index.html)
+
+---
+
 ## 🧰 How to Use / Run Locally
 
 1. Clone this repository:
@@ -154,8 +263,8 @@ If you'd like to contribute, open a PR describing the change.
 
 ## 📬 Contact
 
-**Georgekutty Jose**
-Email: [georgekuttyjose84@gmail.com](mailto:georgekuttyjose84@gmail.com)
+**Georgekutty Jose**  
+Email: [georgekuttyjose84@gmail.com](mailto:georgekuttyjose84@gmail.com)  
 GitHub: [https://github.com/georgekuttyjose84](https://github.com/georgekuttyjose84)
 
 ---
