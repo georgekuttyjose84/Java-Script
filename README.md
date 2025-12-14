@@ -215,7 +215,7 @@ Implements infinite scrolling by loading new content dynamically as the user scr
 
 Demonstrates the Picture-in-Picture Web API using video elements.
 
-👉 [Open Picture in Picture](./api/06-picture-in-picture/index.html)
+👉 [Open Picture in Picture](17-picture-in-picture/index.html)
 
 ---
 
