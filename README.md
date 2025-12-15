@@ -165,6 +165,14 @@ A custom video player with JavaScript-based controls demonstrating media event h
 
 ---
 
+### 17 - Picture in Picture
+
+Demonstrates the Picture-in-Picture Web API using video elements.
+
+👉 [Open Picture in Picture](17-picture-in-picture/index.html)
+
+---
+
 ## 🌐 API-Based Projects
 
 Projects that demonstrate working with external APIs using Fetch API and async JavaScript.
@@ -211,13 +219,7 @@ Implements infinite scrolling by loading new content dynamically as the user scr
 
 ---
 
-### API 06 - Picture in Picture
 
-Demonstrates the Picture-in-Picture Web API using video elements.
-
-👉 [Open Picture in Picture](17-picture-in-picture/index.html)
-
----
 
 ## 🧰 How to Use / Run Locally
 
