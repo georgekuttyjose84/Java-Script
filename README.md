@@ -173,6 +173,14 @@ Demonstrates the Picture-in-Picture Web API using video elements.
 
 ---
 
+### 19 - Youtube Thumbnail Extractor
+
+Demonstrates Extracting Youtube Image From Youtube Video .
+
+👉 [Open Picture in Picture](19-youtube-thumbnail-extractor/index.html)
+
+---
+
 ## 🌐 API-Based Projects
 
 Projects that demonstrate working with external APIs using Fetch API and async JavaScript.

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+.container .extract {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+}
+
+.youtube-image {
+    width: 250px;
+}
+
+.youtube-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.youtube-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+#download {
+    max-width: 250px;
+}
+.hide {
+    display: none;
+}
