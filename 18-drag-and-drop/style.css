@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Main title spacing */
+.main-title {
+    margin-bottom: 20px;
+}
+
+/* Board container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* FIX: prevent vertical stretching */
+    gap: 1.5rem;
+}
+
+/* Each column */
+.drag-container {
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 30px 80px rgba(2, 6, 23, 0.2);
+    padding: 20px;
+    width: 280px; /* FIX: consistent column width */
+    border-radius: 12px;
+}
+
+.drag-container:hover {
+    box-shadow: 0 30px 60px rgba(2, 6, 23, 0.25);
+}
+
+/* Column title */
+.drag-container > h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+/* Remove default ul styles */
+.drag-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task cards */
+.drag-item ul li {
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    cursor: grab; /* better UX */
+    color: #cccccc;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for cards */
+.drag-item ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.dragging {
+    opacity: 0.5;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: #45a049;
+    border-radius: 10px;
+}
+
+
+.add-btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-btn {
+    margin: 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+    user-select: none;
+    background-color: #007bff;
+    color: #cccccc;
+}
+
+.add-btn:hover {
+    background-color: #002aff;
+    color: #cccccc;
+}
+
+.add-btn:active {
+    transform: scale(0.97);
+}
+
+.solid {
+    display: none;
+}
+
+.solid:hover {
+    transition: unset;
+    filter: brightness(95%);
+    color: white;
+}
+
+.plus-sign {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    position: relative;
+    top: -3px;
+}
+
+.add-container {
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 100px;
+    display: none;
+}
+
+.add-item {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px auto;
+    resize: none;
+    color: black;
+    padding: 10px;
+}
+
+.add-item:focus {
+    outline: none;
+}

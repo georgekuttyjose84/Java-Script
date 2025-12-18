@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="main-title">Kanban Board</h1>
+
+<div class="container">
+    <div class="drag-container">
+        <h1>Progression</h1>
+        <div class="drag-item">
+            <ul class="progress">
+            </ul>
+            <button class="btn">Add Items</button>
+
+            <div class="add-btn solid">
+                <span>Save Item</span>
+            </div>
+
+            <div class="add-container">
+                <div class="add-item" contenteditable="true"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="drag-container">
+        <h1>Completed</h1>
+        <div class="drag-item">
+            <ul class="complete">
+            </ul>
+
+            <button class="btn"> Add Items</button>
+
+            <div class="add-btn solid">
+                <span>Save Item</span>
+            </div>
+
+            <div class="add-container">
+                <div class="add-item" contenteditable="true">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
