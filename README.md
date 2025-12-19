@@ -173,6 +173,14 @@ Demonstrates the Picture-in-Picture Web API using video elements.
 
 ---
 
+### 18 - Drag and Drop
+
+Demonstrates a desktop-based drag-and-drop Kanban board with editable items and local storage support.
+
+👉 [Open Picture in Picture](18-drag-and-drop/index.html)
+
+---
+
 ### 19 - Youtube Thumbnail Extractor
 
 Demonstrates Extracting Youtube Image From Youtube Video .
