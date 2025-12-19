@@ -1,7 +1,5 @@
 # JavaScript Mini Projects Collection
 
-![Repo Banner](./assets/banner-1.png)
-
 > A personal collection of small, beginner-friendly JavaScript projects focused on learning core concepts through hands-on building.
 
 ## 🌟 About This Repository
