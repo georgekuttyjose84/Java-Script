@@ -47,7 +47,7 @@ Each project folder typically contains:
 
 A small quiz app that presents multiple-choice questions, collects answers, and displays a score with feedback.
 
-🚀 [Open Quiz Generator](./02-quiz-generator/index.html)
+🚀 [Open Quiz Generator](./02-quiz-generator/)
 
 📁 [Source Code](./02-quiz-generator/index.html)
 
@@ -57,7 +57,9 @@ A small quiz app that presents multiple-choice questions, collects answers, and 
 
 Fixed Deposit calculator that computes maturity value given principal, rate of interest, and tenure.
 
-👉 [Open FD Calculator](./03-fd-calculator/index.html)
+🚀 [Open FD Calculator](./03-fd-calculator/index.html)
+
+📁 [Source Code](./03-fd-calculator/index.html)
 
 ---
 
@@ -65,7 +67,9 @@ Fixed Deposit calculator that computes maturity value given principal, rate of i
 
 A utility to generate random passwords with options for length and inclusion of uppercase, numbers, and symbols.
 
-👉 [Open Password Generator](./04-password-generator/index.html)
+🚀 [Open Password Generator](./04-password-generator/index.html)
+
+📁 [Source Code](./04-password-generator/index.html)
 
 ---
 
@@ -73,7 +77,9 @@ A utility to generate random passwords with options for length and inclusion of 
 
 Simple tool that checks whether the entered character is a vowel or not and displays the result.
 
-👉 [Open Vowel Checker](./05-vowel-checker/index.html)
+🚀 [Open Vowel Checker](./05-vowel-checker/index.html)
+
+📁 [Source Code](./05-vowel-checker/index.html)
 
 ---
 
@@ -81,7 +87,9 @@ Simple tool that checks whether the entered character is a vowel or not and disp
 
 Calculate age based on a user-provided birthdate. Demonstrates date handling and basic arithmetic in JS.
 
-👉 [Open Age Calculator](./06-age-calculator/index.html)
+🚀 [Open Age Calculator](./06-age-calculator/index.html)
+
+📁 [Source Code](./06-age-calculator/index.html)
 
 ---
 
@@ -89,7 +97,9 @@ Calculate age based on a user-provided birthdate. Demonstrates date handling and
 
 Compute tip amount and total bill based on bill value and chosen tip percentage.
 
-👉 [Open Tip Calculator](./07-tip-calculator/index.html)
+🚀 [Open Tip Calculator](./07-tip-calculator/index.html)
+
+📁 [Source Code](./07-tip-calculator/index.html)
 
 ---
 
@@ -97,7 +107,9 @@ Compute tip amount and total bill based on bill value and chosen tip percentage.
 
 A simple to-do list app featuring add, remove, and persist (localStorage) functionality.
 
-👉 [Open To-Do List](./08-to-do-list/index.html)
+🚀 [Open To-Do List](./08-to-do-list/index.html)
+
+📁 [Source Code](./08-to-do-list/index.html)
 
 ---
 
@@ -105,7 +117,9 @@ A simple to-do list app featuring add, remove, and persist (localStorage) functi
 
 A real-time digital clock built with JavaScript that updates every second.
 
-👉 [Open Digital Clock](./09-digital-clock/index.html)
+🚀 [Open Digital Clock](./09-digital-clock/index.html)
+
+📁 [Source Code](./09-digital-clock/index.html)
 
 ---
 
@@ -113,7 +127,9 @@ A real-time digital clock built with JavaScript that updates every second.
 
 Basic expense tracker that allows adding expenses and viewing totals; a foundation for a more advanced finance app.
 
-👉 [Open Expense Tracker](./10-expense-tracker/index.html)
+🚀 [Open Expense Tracker](./10-expense-tracker/index.html)
+
+📁 [Source Code](./10-expense-tracker/index.html)
 
 ---
 
@@ -121,7 +137,9 @@ Basic expense tracker that allows adding expenses and viewing totals; a foundati
 
 A small UI utility demonstrating popover behavior using JavaScript event handling and DOM manipulation.
 
-👉 [Open Popover Application](./11-poper-application/index.html)
+🚀 [Open Popover Application](./11-poper-application/index.html)
+
+📁 [Source Code](./11-poper-application/index.html)
 
 ---
 
@@ -129,7 +147,9 @@ A small UI utility demonstrating popover behavior using JavaScript event handlin
 
 Tool to detect and display ASCII or Unicode values for user-entered characters.
 
-👉 [Open ASCII / Unicode Detector](./12-ascii-unicode-detector/index.html)
+🚀 [Open ASCII / Unicode Detector](./12-ascii-unicode-detector/index.html)
+
+📁 [Source Code](./12-ascii-unicode-detector/index.html)
 
 ---
 
@@ -137,7 +157,9 @@ Tool to detect and display ASCII or Unicode values for user-entered characters.
 
 A browser-based music player featuring playlist control, play/pause functionality, and audio handling using the HTML5 Audio API.
 
-👉 [Open Music Player](./13-music-player/index.html)
+🚀 [Open Music Player](./13-music-player/index.html)
+
+📁 [Source Code](./13-music-player/index.html)
 
 ---
 
@@ -145,7 +167,9 @@ A browser-based music player featuring playlist control, play/pause functionalit
 
 A countdown timer that calculates remaining time until a selected future date.
 
-👉 [Open Countdown Maker](./14-count-down-maker/index.html)
+🚀 [Open Countdown Maker](./14-count-down-maker/index.html)
+
+📁 [Source Code](./14-count-down-maker/index.html)
 
 ---
 
@@ -153,7 +177,9 @@ A countdown timer that calculates remaining time until a selected future date.
 
 A simple bookmark manager that allows saving, listing, and persisting website links using localStorage.
 
-👉 [Open Bookmark Manager](./15-book-marker/index.html)
+🚀 [Open Bookmark Manager](./15-book-marker/index.html)
+
+📁 [Source Code](./15-book-marker/index.html)
 
 ---
 
@@ -161,7 +187,9 @@ A simple bookmark manager that allows saving, listing, and persisting website li
 
 A custom video player with JavaScript-based controls demonstrating media event handling.
 
-👉 [Open Video Player](./16-video-player/index.html)
+🚀 [Open Video Player](./16-video-player/index.html)
+
+📁 [Source Code(./16-video-player/index.html)
 
 ---
 
@@ -169,7 +197,9 @@ A custom video player with JavaScript-based controls demonstrating media event h
 
 Demonstrates the Picture-in-Picture Web API using video elements.
 
-👉 [Open Picture in Picture](17-picture-in-picture/index.html)
+🚀 [Open Picture in Picture](17-picture-in-picture/index.html)
+
+📁 [Source Code](17-picture-in-picture/index.html)
 
 ---
 
@@ -177,7 +207,9 @@ Demonstrates the Picture-in-Picture Web API using video elements.
 
 Demonstrates a desktop-based drag-and-drop Kanban board with editable items and local storage support.
 
-👉 [Open Picture in Picture](18-drag-and-drop/index.html)
+🚀 [Open Picture in Picture](18-drag-and-drop/index.html)
+
+📁 [Source Code](18-drag-and-drop/index.html)
 
 ---
 
@@ -185,7 +217,9 @@ Demonstrates a desktop-based drag-and-drop Kanban board with editable items and 
 
 Demonstrates Extracting Youtube Image From Youtube Video .
 
-👉 [Open Picture in Picture](19-youtube-thumbnail-extractor/index.html)
+🚀 [Open Picture in Picture](19-youtube-thumbnail-extractor/index.html)
+
+📁 [Source Code](19-youtube-thumbnail-extractor/index.html)
 
 ---
 
@@ -199,7 +233,9 @@ Projects that demonstrate working with external APIs using Fetch API and async J
 
 A dictionary application that fetches word meanings from an external API and displays definitions dynamically.
 
-👉 [Open Dictionary App](./api/01-dictonary-app/index.html)
+🚀 [Open Dictionary App](./api/01-dictonary-app/index.html)
+
+📁 [Source Code](./api/01-dictonary-app/index.html)
 
 ---
 
@@ -207,7 +243,9 @@ A dictionary application that fetches word meanings from an external API and dis
 
 Generates and displays random quotes fetched from a public API.
 
-👉 [Open Quote Generator](./api/02-quote-generator/index.html)
+🚀 [Open Quote Generator](./api/02-quote-generator/index.html)
+
+📁 [Source Code](./api/02-quote-generator/index.html)
 
 ---
 
@@ -215,7 +253,9 @@ Generates and displays random quotes fetched from a public API.
 
 Fetches jokes from an external API and displays them dynamically.
 
-👉 [Open Joke Teller](./api/03-joke-teller/index.html)
+🚀 [Open Joke Teller](./api/03-joke-teller/index.html)
+
+📁 [Source Code](./api/03-joke-teller/index.html)
 
 ---
 
@@ -223,7 +263,9 @@ Fetches jokes from an external API and displays them dynamically.
 
 Search for images using an external image API and display results dynamically.
 
-👉 [Open Image Search](./api/04-image-search/index.html)
+🚀 [Open Image Search](./api/04-image-search/index.html)
+
+📁 [Source Code](./api/04-image-search/index.html)
 
 ---
 
@@ -231,7 +273,9 @@ Search for images using an external image API and display results dynamically.
 
 Implements infinite scrolling by loading new content dynamically as the user scrolls.
 
-👉 [Open Infinity Scroll](./api/05-infinity-scroll/index.html)
+🚀 [Open Infinity Scroll](./api/05-infinity-scroll/index.html)
+
+📁 [Source Code](./api/05-infinity-scroll/index.html)
 
 ---
 
@@ -243,54 +287,54 @@ Implements infinite scrolling by loading new content dynamically as the user scr
 
 ```bash
 git clone <your-repo-url>
-cd <repo-folder>
-```
+    cd <repo-folder>
+    ```
 
-2. Open any project in your browser by double-clicking the `index.html` file or serve the repo using a simple static server (recommended for consistent behavior):
+    2. Open any project in your browser by double-clicking the `index.html` file or serve the repo using a simple static server (recommended for consistent behavior):
 
-```bash
-# using Python 3
-python -m http.server 8000
-# then open http://localhost:8000/02-quiz-generator/
-```
+    ```bash
+    # using Python 3
+    python -m http.server 8000
+    # then open http://localhost:8000/02-quiz-generator/
+    ```
 
-3. Modify HTML/CSS/JS files to experiment and learn.
+    3. Modify HTML/CSS/JS files to experiment and learn.
 
----
+    ---
 
-## ✅ Contributing
+    ## ✅ Contributing
 
-Contributions and improvements are welcome! A few suggestions:
+    Contributions and improvements are welcome! A few suggestions:
 
-* Add comments and documentation to JavaScript files for readability.
-* Improve styling and responsive behavior in CSS.
-* Add tests or validation where appropriate (e.g., input validation for calculators).
-* Create new mini-projects and follow the same folder structure.
+    * Add comments and documentation to JavaScript files for readability.
+    * Improve styling and responsive behavior in CSS.
+    * Add tests or validation where appropriate (e.g., input validation for calculators).
+    * Create new mini-projects and follow the same folder structure.
 
-If you'd like to contribute, open a PR describing the change.
+    If you'd like to contribute, open a PR describing the change.
 
----
+    ---
 
-## 📝 Notes & TODO
+    ## 📝 Notes & TODO
 
-* Standardize naming of `styles.css` vs `style.css` across projects.
-* Add README files inside complex project folders to describe specific features and usage.
-* Add small screenshots or GIF demos for each project in `assets/`.
+    * Standardize naming of `styles.css` vs `style.css` across projects.
+    * Add README files inside complex project folders to describe specific features and usage.
+    * Add small screenshots or GIF demos for each project in `assets/`.
 
----
+    ---
 
-## 📬 Contact
+    ## 📬 Contact
 
-**Georgekutty Jose**  
-Email: [georgekuttyjose84@gmail.com](mailto:georgekuttyjose84@gmail.com)  
-GitHub: [https://github.com/georgekuttyjose84](https://github.com/georgekuttyjose84)
+    **Georgekutty Jose**
+    Email: [georgekuttyjose84@gmail.com](mailto:georgekuttyjose84@gmail.com)
+    GitHub: [https://github.com/georgekuttyjose84](https://github.com/georgekuttyjose84)
 
----
+    ---
 
-## 📜 License
+    ## 📜 License
 
-This repository is available under the **MIT License**. See `LICENSE` for details.
+    This repository is available under the **MIT License**. See `LICENSE` for details.
 
----
+    ---
 
-*Happy coding — build, break, fix, repeat!*
+    *Happy coding — build, break, fix, repeat!*
