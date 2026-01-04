@@ -243,7 +243,7 @@ A dictionary application that fetches word meanings from an external API and dis
 
 Generates and displays random quotes fetched from a public API.
 
-🚀 [Open Quote Generator](https://georgekuttyjose84.github.io/Java-Script/api/02-quote-generator)
+🚀 [Open Quote Generator](https://georgekuttyjose84.github.io/Java-Script/api/02-quote-generator/)
 
 📁 [Source Code](./api/02-quote-generator/index.html)
 
