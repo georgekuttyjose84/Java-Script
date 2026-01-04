@@ -157,7 +157,7 @@ Tool to detect and display ASCII or Unicode values for user-entered characters.
 
 A browser-based music player featuring playlist control, play/pause functionality, and audio handling using the HTML5 Audio API.
 
-🚀 [Open Music Player](https://georgekuttyjose84.github.io/Java-Script/13-music-player/)
+🚀 [Open Music Player](https://georgekuttyjose84.github.io/Java-Script/13-music-player)
 
 📁 [Source Code](./13-music-player/index.html)
 
