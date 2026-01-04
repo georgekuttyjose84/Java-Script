@@ -47,7 +47,7 @@ Each project folder typically contains:
 
 A small quiz app that presents multiple-choice questions, collects answers, and displays a score with feedback.
 
-👉 [Open Quiz Generator](./02-quiz-generator/index.html)
+👉 [Open Quiz Generator](./02-quiz-generator/index.html) 👉 [Source Code](./02-quiz-generator/index.html)
 
 ---
 
